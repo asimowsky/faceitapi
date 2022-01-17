@@ -1,0 +1,51 @@
+
+body{
+    display: flex;
+    align-items: center;
+    background-image: url('https://cdn.wallpapersafari.com/79/36/XaGBLm.jpg');
+    background-size: cover;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.upper{
+    background-color:rgba(0, 0, 0, 0.5);
+    border: 2px ridge rgb(230, 158, 24);
+    
+}
+
+.btnSearch{
+    border-color: orange;
+    color: orange;
+
+}
+.btnSearch:hover{
+    background-color: orange;
+    border-color: black;
+    color: black;
+}
+.btnSearch:onclick{
+    background-color: orange;
+
+    color: black;
+    border:none;
+    border-style: none;
+}
+.btnSearch:active{
+    border: none;
+}
+.btnSearch:visited{
+    border: none;
+}
+
+.avatar{
+    border: 10px solid  #2a2a72;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+
